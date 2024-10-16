@@ -7,7 +7,7 @@ py -m pip freeze > requirements.txt
 :: Step 2: Loop through and update each package
 for /F "delims==" %%i in (requirements.txt) do (
     echo Updating package %%i...
-    py -m pip install --upgrade %%i
+    py -m pip install --no-cache-dir --upgrade %%i
 )
 
 :: Step 3: Clean up
