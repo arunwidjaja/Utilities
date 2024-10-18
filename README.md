@@ -1,12 +1,12 @@
 # Utilities
 
-### backup.bat
+## backup.bat
 Backs up my files to mounted network drives with robocopy.
 
-### resetIconCache.bat
+## resetIconCache.bat
 Resets Windows' icon cache. Useful for fixing broken icons.
 
-### strip_ssa.py
+## strip_ssa.py
 Strips lines containing a keyword from .ssa/.ass subtitle files.
 
 Often, each line in an .ssa file will have a keyword to distinguish different styles of content such as dialogue, lyrics, chapter titles, translations, etc.
